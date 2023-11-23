@@ -201,3 +201,68 @@ body {
   gap: 180px;
   margin-bottom: 50px;
 }
+.contact-form-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: 66px;
+}
+.forms-fields {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.form{
+  margin-top: 150px;
+  margin-left: 150px;
+}
+textarea {
+	resize: none;
+	width: 653px;
+	height: 265px;
+  box-shadow: 13px 21px 4px rgba(0, 0, 0, 0.25);
+}
+input[type=text]{
+  width:653px;
+  height: 94px;
+}
+input[type=password]{
+  width:653px;
+  height: 94px;
+}
+.input-f {
+  width: 653px;
+  height: 94px;
+  box-shadow: 13px 21px 4px rgba(0, 0, 0, 0.25);
+  
+}
+.input-f::placeholder,
+.txt-field::placeholder
+{ 
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 400;
+  color: #000;
+  padding-left: 30px;
+}
+
+.btn-send-font
+{ 
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 400;
+  color: #000;
+}
+
+.saly-13 {
+  margin-right: 150px;
+}
+.btn-size {
+  margin-left: 164px;
+  width: 327px;
+  height: 94px;
+  box-shadow: 13px 21px 4px rgba(0, 0, 0, 0.25);
+}

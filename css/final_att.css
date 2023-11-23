@@ -55,6 +55,7 @@ body {
 
 .d-flex {
   display: flex;
+  flex-shrink: 0;
 }
 
 .h-100 {
@@ -82,17 +83,19 @@ body {
   display: flex;
   flex-direction: row;
   margin-top: 120px;
+  flex-shrink: 0;
 }
 .my-photo {
   display: flex;
 }
 .my-photo1-margin {
   margin-right: 100px;
-  margin-left: 450px;   
+  margin-left: 450px;
 }
+
 .my-photo2-margin {
   margin-right: 100px;
-  margin-left: 190px;   
+  margin-left: 230px;
 }
 .h-flex {
   margin-left: 78px;
@@ -172,4 +175,29 @@ body {
 }
 .text-info2 {
   margin-top: 200px;
+}
+.my-projects{
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  background: #FFD69633;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+.dummy-text {
+  text-align: center;
+  line-height: 0.8;
+}
+.my-proj-images {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 180px;
+  margin-bottom: 50px;
 }

@@ -215,14 +215,16 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
+
 .form{
-  margin-top: 150px;
+  margin-top: 200px;
   margin-left: 150px;
 }
 textarea {
 	resize: none;
 	width: 653px;
 	height: 265px;
+  margin-top: 80px;
   box-shadow: 13px 21px 4px rgba(0, 0, 0, 0.25);
 }
 input[type=text]{
@@ -232,12 +234,12 @@ input[type=text]{
 input[type=password]{
   width:653px;
   height: 94px;
+  margin-top: 80px;
 }
 .input-f {
   width: 653px;
   height: 94px;
   box-shadow: 13px 21px 4px rgba(0, 0, 0, 0.25);
-  
 }
 .input-f::placeholder,
 .txt-field::placeholder

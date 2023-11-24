@@ -16,6 +16,11 @@
   src: url(../fonts/Poppins/Poppins-Light.ttf);
 }
 
+@font-face {
+  font-family: 'Jost';
+  font-weight: 700;
+  src: url(../fonts/Jost/static/Jost-Bold.ttf);
+}
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -42,9 +47,10 @@ body {
 }
 
 .company-name {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   margin-left: 78px;
   margin-top: 45px;
+  ma
   padding: 0;
   font-family: 'Poppins';
   font-weight: bold;
@@ -63,11 +69,11 @@ body {
 }
 .bottom-letter {
   display: flex;
-  justify-content: flex-start;
+  justify-content:flex-start;
   letter-spacing: 0.35em;
 }
 .hr-line {
-  margin: 0 40px 40px;
+  margin: 50px 0px 40px 40px;
   color: #000;
   size: 3px;
   text-align: center;
@@ -206,8 +212,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: rgba(67, 186, 253, 0.06);
   margin-top: 200px;
-  margin-left: 66px;
+  padding: 66px;
   /* flex-shrink: 0; */
 }
 .forms-fields {
@@ -227,10 +234,10 @@ textarea {
   margin-top: 80px;
   box-shadow: 13px 21px 4px rgba(0, 0, 0, 0.25);
 }
-input[type=text]{
+/* input[type=text]{
   width:653px;
   height: 94px;
-}
+} */
 input[type=password]{
   width:653px;
   height: 94px;
@@ -269,4 +276,71 @@ input[type=password]{
   width: 327px;
   height: 94px;
   box-shadow: 13px 21px 4px rgba(0, 0, 0, 0.25);
+}
+.footer-menu {
+  background: #FFD69633;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  padding-top: 150px;
+}
+.footer-links {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-ul {
+  list-style: none;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+} 
+.footer-subscribe-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+/* .footer-email{
+  height: 97px;
+  width: 26;
+} */
+.footer-email {
+  width: 323px;
+  height: 97px;
+  border-radius: 30px;
+  background: #000;
+  position: absolute;
+  border: none;
+  top: 4637px;
+  left: 100px; 
+  
+}
+.footer-email::placeholder {
+  font-family: 'Jost', sans-serif;
+  font-size: 31px;
+  line-height: 97px;
+  font-weight: 700;
+  color: #fff;
+  padding-left: 30px;
+}
+.footer-btn {
+  font-family: 'Jost', sans-serif;
+  font-size: 31px;
+  line-height: 97px;
+  font-weight: 700;
+  background: #F965FC;
+  color: #fff;
+  border-radius: 30px;
+  border: none;
+  height: 97px;
+  width: 178px;
+  position: relative;
+  margin-left: 350px;
+
+}
+.contact-links {
+  margin-right: 150px;
 }
